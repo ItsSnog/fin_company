@@ -1,0 +1,151 @@
+.content
+  .slider_menu
+    .carousel
+      @media screen and (max-width: 768px)
+        margin-bottom 20px
+    .carousel-inner
+      padding-bottom 20px
+      @media screen and (max-width: 768px)
+        padding 0
+      .item
+        .carousel-caption
+          padding-bottom 100px
+          @media screen and (max-width: 1199px)
+            padding-bottom 50px
+          @media screen and (max-width: 768px)
+            padding 0
+            left 0
+            right 0
+            width 100%
+            top 25%
+            h1
+              margin 0 0 10px 0
+        .about_news
+          position relative
+          top 130px
+          @media screen and (max-width: 1199px)
+            top 80px
+          a
+            padding 10px 60px
+            @media screen and (max-width: 768px)
+              display none
+            background #38394c
+            color white
+            text-decoration none
+            border-radius 3px
+  .carousel-control
+    @media screen and (max-width: 768px)
+      display none
+    width 3%
+    top 115px
+    @media screen and (max-width: 1199px)
+      top 100px
+    @media screen and (max-width: 992px)
+      top 70px
+  .left
+    left -18px
+  .right
+    right -16px
+    @media screen and (max-width: 992px)
+      right -10px
+  .right, .left
+    opacity 1
+    background none
+    i
+      padding 15px 15px
+      border-radius 3px
+      margin-top 100%
+      color white
+      background #38394c
+      font-size 10px
+  .services
+    margin-top 20px
+    @media screen and (max-width: 768px)
+      margin 0
+    .service
+      display flex
+      flex-wrap wrap
+      .third
+        border-top-right-radius 3px
+        border-bottom-right-radius 3px
+      .first
+        border-top-left-radius 3px
+        border-bottom-left-radius 3px
+      .second
+        border-left none
+        border-right none
+        @media screen and (max-width: 768px)
+          border 1px solid #eee
+          border-bottom none
+          border-top none
+      & > div
+        display flex
+        justify-content center
+        align-self center
+        height 250px
+        width 33.33%
+        @media screen and (max-width: 768px)
+          width 60%
+          margin auto
+        border 1px solid #eee
+        text-align center
+        .caption
+          align-self center
+          .img_serv
+            margin-bottom 10px
+          .caption_serv
+            p
+              margin 0
+  .feedback
+    margin-top 30px
+    .feedback_container
+      border-radius 3px
+      border 1px solid #eee
+      text-align center
+      transition box-shadow 1s
+      &:hover
+        box-shadow 0 0 30px 5px #eee
+      p
+        margin-bottom 20px
+        margin-top 15px
+        color #aeaeb4
+      h3
+        margin 30px 0 0 0
+        color #38394c
+      form
+        p
+          margin-top 25px
+        .form-group
+          margin-bottom 20px
+          input
+            padding 15px 20px
+            width 90%
+            margin auto
+        .btn
+          margin-bottom 20px
+          color white
+          padding 5px 50px
+          background #38394c
+          border-radius 3px
+          &:focus
+            outline none
+  .news-info
+    .news, .info
+      h1
+        overflow hidden
+        margin 20px
+        &:before, &:after
+          content ''
+          display inline-block
+          vertical-align middle
+          box-sizing border-box
+          width 10%
+          height 1px
+          background #eee
+          border solid #fff
+          border-width 0 10px
+        &:before
+          margin-left -50%
+        &:after
+          margin-right -50%
+        
